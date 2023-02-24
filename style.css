@@ -47,7 +47,29 @@ p {
 .section-m1 {
   margin: 40px 0;
 }
-
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+button.white{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #fff;
+  outline: none;
+  transition: 0.2s;
+}
 body {
   width: 100%;
 }
@@ -64,6 +86,7 @@ body {
     position: sticky;
     top:0;
     left: 0;
+    z-index: 999;
 }
 #navbar{
     display: flex;
@@ -158,3 +181,209 @@ body {
     color :#088178;
     background-color: #fddde4;
 }
+#feature .feature-box:nth-child(2) h6{
+  background-color: #cdebbc;
+}
+#feature .feature-box:nth-child(3) h6{
+  background-color: #d1e8f2;
+}
+#feature .feature-box:nth-child(4) h6{
+  background-color: #cdd4f8
+}
+#feature .feature-box:nth-child(5) h6{
+  background-color: #f6dbf6;
+}
+#feature .feature-box:nth-child(6) h6{
+  background-color: #fff2e4;
+}
+/* Products Section Styling*/
+#product1{
+  text-align: center;
+}
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+#product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  margin: 15px 0;
+  transition: 0.2ms ease;
+  position: relative;
+}
+#product1 .pro:hover{
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+#product1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+#product1 .pro .desciption{
+  text-align: start;
+  padding: 10px 0;
+}
+#product1 .pro .desciption span{
+  color: #606063;
+  font-size: 12px;
+}
+#product1 .pro .desciption h5{
+  color: #1a1a1a;
+  font-size: 14px;
+  padding-top: 7px; 
+}
+#product1 .pro .desciption i{
+  font-size: 12px;
+  color: rgb(243,181,25);
+}
+#product1 .pro .desciption h4{
+  font-size: 15px;
+  padding-top: 7px;
+  font-weight: 700;
+  color: #088178;
+}
+#product1 .pro .shopping-icon{
+  width: 40px;
+  height:  40px;
+  line-height: 40px;
+  border: 1px solid #cdebbc;
+  border-radius: 50px;
+  background-color: #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+/*Styling bannar section*/
+#bannar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-image: url(img/banner/b2.jpg);
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+}
+#bannar h4{
+  color: #fff;
+  font-size: 16px;
+}
+#bannar h2{
+  color: #fff;
+  font-size: 30px;
+  padding: 1px 0;
+}
+#bannar h2 span{
+  color: red;
+}
+#bannar button:hover{
+  background-color: #088178;
+  color: #fff;
+}
+/* New arrival section*/
+#sm-bannar{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+#sm-bannar .bannar-box{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(img/banner/b17.jpg);
+  min-width: 48%;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+}
+#sm-bannar .bannar-box2{
+  background-image: url(img/banner/b10.jpg);
+}
+#sm-bannar h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sm-bannar h2{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-bannar span{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+#sm-bannar .bannar-box:hover button{
+  background-color: #088178;
+  border: 1px solid #088178;
+}
+#bannar3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#bannar3 .bannar-box{
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(img/banner/b7.jpg);
+  min-width: 30%;
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#bannar3 .bannar-box2{
+  background-image: url(img/banner/b4.jpg);
+}
+#bannar3 .bannar-box3{
+  background-image: url(img/banner/b18.jpg);
+}
+#bannar3 h2{
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+}
+#bannar3 h3{
+  color: #e96f6f;
+  font-weight: 800;
+  font-size: 15px;
+}
+/*News Letter section*/
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(img/banner/b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
+
+
+
+
+
+
+
+
+
+
+
