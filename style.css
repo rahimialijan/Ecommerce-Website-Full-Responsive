@@ -376,6 +376,81 @@ body {
   background-position: 20% 30%;
   background-color: #041e42;
 }
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+#newsletter h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+#newsletter p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+#newsletter p span{
+  color: #ffdb27;
+}
+#newsletter input{
+  height: 3.12rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter button{
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/*footer Section*/
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+footer .logo{
+  margin-bottom: 30px;
+}
+footer h4{
+  font-size: 14px;
+  padding-bottom:20px ;
+}
+footer p{
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+footer a{
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #222;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
