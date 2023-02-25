@@ -93,6 +93,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+#header #mobile-menu{
+  display: none;
+  align-items: center;
+}
 #navbar li{
     list-style: none;
     padding: 0 20px;
@@ -441,6 +445,193 @@ footer a{
   text-decoration: none;
   color: #222;
 }
+footer .follow{
+  margin-top: 20px;
+}
+footer .follow i{
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .install .row img{
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+footer .install img{
+  margin: 10px 0 15px 0;
+}
+footer .follow .i:hover,
+footer a:hover{
+  color: #088178;
+}
+footer .copyright{
+  width: 100%;
+  text-align: center;
+}
+#header .mobile-menu{
+  display: none;
+}
+#close-icon{
+  display: none;
+  align-items: center;
+}
+#shopping-bag i{
+  color: #088178;
+  font-size: 25px;
+}
+/*Start Media Query Styling*/
+@media(max-width:799px){
+  .section-p1{
+    padding: 40px 40px;
+  }
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 40%;
+    background-color: #e3e6e3;
+    padding: 100px 0 0 10px;
+    transition: 0.5s;
+  }
+  #navbar.active{
+    right: 0px;
+  }
+  #navbar li{
+    margin-bottom: 25px;
+  }
+   #header #mobile-menu{
+    display: flex;
+    align-items: center;
+  }
+  #mobile-menu i{
+    padding-left: 20px;
+    font-size: 24px;
+  }
+  #close-icon{
+    display: initial;
+    color: #222;
+    font-size: 20px;
+    top: 50px;
+    left: 40px;
+    position: absolute;
+  }
+  #shopping-bag{
+    display: none;
+  }
+  #hero{
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 35%;
+  }
+  #feature{
+    justify-content: center;
+  }
+  #feature .feature-box{
+    margin: 15px 15px;
+  }
+  #product1{
+    text-align: center;
+  }
+  #product1 .pro-container{
+    justify-content: center;
+  }
+  #product1 .pro{
+    margin: 15px;
+  }
+  #bannar {
+  height: 20vh;
+  }
+  #sm-bannar{
+    justify-content: center;
+  }
+  #sm-bannar .bannar-box {
+    min-width: 90%;
+    height: 30vh;
+    padding: 30px 40px;
+  }
+  #bannar3{
+    padding: 0 40px;
+  }
+  #bannar3 .bannar-box {
+    width: 28%;
+  }
+  #newsletter .form{
+    width: 70%;
+  }
+}
+/*Small Mobile Styling*/
+
+@media(max-width:477px){
+  #header{
+    padding: 10px 50px;
+  }
+  h2{
+    font-size: 32px;
+  }
+  h1{
+    font-size: 38px;
+  }
+  #hero {
+    padding: 0 20px;
+    background-position: 50%;
+  }
+  .section-p1 {
+    padding: 20px;
+  }
+  #feature{
+    justify-content: space-between;
+  }
+  #feature .feature-box{
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+  #product1 .pro{
+    width: 100%;
+  }
+  #bannar {
+    height: 40vh;
+  }
+  #sm-bannar .bannar-box2{
+    margin-top: 20px;
+  }
+  #bannar3{
+    padding: 0 20px;
+  }
+  #bannar3 .bannar-box{
+    width: 100%;
+  }
+  #newsletter{
+    padding: 40px 20px;
+  }
+  #newsletter .form {
+    width: 100%;
+ }
+ footer .copyright {
+  text-align: start;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
