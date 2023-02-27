@@ -654,11 +654,98 @@ footer .copyright{
   width: 100%;
   height: 100%;
 }
+/*contact page disign and styling*/
+#contact-details{
+  display: flex;
+  justify-content: space-between;
+}
+#contact-details .details{
+  width: 40%;
+}
+#contact-details .details span,
+#form-details form span{
+  font-size: 12px;
+}
+#contact-details .details h2,
+#form-details form h2{
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+#contact-details .details h3{
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+#contact-details li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+#contact-details li i{
+  font-size: 14px;
+  padding-right: 22px;
+}
+#contact-details li p{
+  font-size: 14px;
+  margin: 0;
+}
+#contact-details .map{
+  width: 55%;
+  height: 400px;
+}
+#contact-details .map iframe{
+  width: 100%;
+  height: 100%;
+}
 
-
-
-
-
+#form-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e1e1e1;
+  margin: 30px;
+  padding: 80px;
+}
+#form-details form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 65%;
+}
+#form-details form input,
+#form-details form textarea{
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  outline: none;
+  border: 1px solid #e1e1e1;
+}
+#form-details form button{
+  background: #088178;
+  color: #fff;
+}
+#form-details .people div{
+  padding-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+#form-details .people div img{
+  width: 65px;
+  height: 65px;
+  background-size: cover;
+  margin-right: 20px;
+}
+#form-details .people div p{
+  font-size: 13px;
+  margin: 0;
+  line-height: 25px;
+}
+#form-details .people div p span{
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
 
 
 
@@ -786,7 +873,19 @@ footer .copyright{
     background-size: cover;
     background-position: top 10% right 0;
   }
+  /*Making contact page responsive*/
+  #form-details {
+    padding: 40px;
+  }
+  #form-details form{
+    width: 50%;
+    align-items: start;
+  }
+
 }
+
+
+
 
 /*Small Mobile Styling*/
 
